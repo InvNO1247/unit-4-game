@@ -1,4 +1,4 @@
-/* .instruction {
+.instruction {
 	border: 2px solid black;
 	padding: 2%;
 	background-color: white; 
@@ -56,4 +56,4 @@
   .wins, .losses { 
 	padding: 2%;
 	color: brown;
-  } */
+  }
