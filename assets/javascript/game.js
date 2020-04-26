@@ -1,20 +1,13 @@
 $(document).ready(function () {
 
 
-
+    // Computer to pick random number
     var compPick = Math.floor(Math.random() * 102) + 19;
     console.log("compPick: " + compPick);
     $(".randomNumber").html(compPick);
 
-    // var randomArray = []; 
-    // 	console.log("randomArray: " + randomArray); 
 
-    // for (i = 0 ; i < 4 ; i++) {
-    // 	var gemNumber = Math.floor(Math.random() * 12) + 1; 
-    // 		console.log("gemNumber: " + gemNumber); 
-    // 	randomArray.push(gemNumber); 
-    // }
-
+    // Randome gen numbers for gems
     var gemOne = Math.floor(Math.random() * 12) + 1;
     console.log("Gem 1: " + gemOne);
     $("#img1").html("<img src=" + "assets/images/mindstone2.jpg" + " value=" + gemOne + ">");
@@ -39,6 +32,8 @@ $(document).ready(function () {
 
     var score = 0;
     console.log("score: " + score);
+
+    // Reset
 
     function reset() {
         compPick = Math.floor(Math.random() * 102) + 19;
