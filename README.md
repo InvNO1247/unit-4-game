@@ -23,7 +23,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](https://invno1247.github.io/unit-4-game/) and ![Image](src)
+[Link](https://invno1247.github.io/unit-4-game/)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
